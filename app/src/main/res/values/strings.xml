@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EDUGAIN</string>
+    <string-array name="Usertype">
+        <item name="select">--SelectType--</item>
+        <item name="admin">Admin</item>
+        <item name="instructor">Instructor</item>
+        <item name="student">Student</item>
+    </string-array>
+    <string name="admin">Admin</string>
+    <string name="instructor">Instructor</string>
+    <string name="student">Student</string>
+</resources>
