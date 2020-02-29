@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView Attempts;
     private Button Login;
     private Spinner spinner;
-    private int counter = 5;
+    private int counter = 6;
 
     private FirebaseAuth auth;
 
