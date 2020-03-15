@@ -16,11 +16,11 @@ Admin: Handles all academic details like updating courses, student information, 
     Presently working on the database tables construction in an Json file.Once the tables are created internal working of app will be done .
     
 # Issues 
-    As far as now only minor issues arises upon scrutiny those are rectified.
+    As far as now only minor issues arises, upon scrutiny those are rectified.
     Minor issues like storing the data in database ,authentiication for all users.
     
 # Timeline:
-  EStimated time to complete the Project on or before March with the fully functional App. 
+  Estimated time to complete the Project on or before April first week with the fully functional App. 
   
 # Team Mates
     Divakar chowdary kamma
