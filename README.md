@@ -19,7 +19,7 @@ Admin: Handles all academic details like updating courses, student information, 
     As far as now only minor issues arises, upon scrutiny those are rectified.
     Minor issues like storing the data in database ,authentiication for all users.
     
-# Timeline:
+# Timeline
   Estimated time to complete the Project on or before April first week with the fully functional App. 
   
 # Team Mates
