@@ -13,7 +13,7 @@ Admin: Handles all academic details like updating courses, student information, 
     Android Studio , firebase database ,firebase Authentication, Java, Json.
     
 # Present Status
-    Presently working on the database tables construction in an Json file.Once the tables are created internal working of app will be done .
+    User interface creation is completed for the welcome page, user interface should be completed once all the tables are completed.Presently working on the admin database tables construction in an Json file.Once the admin tables are created internal working of app will be done.
     
 # Issues 
     As far as now only minor issues arises, upon scrutiny those are rectified.
