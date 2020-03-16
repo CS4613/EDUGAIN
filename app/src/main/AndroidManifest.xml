@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edugain">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.app.edugain.StartPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.edugain.Register" />
+        <activity android:name="com.app.edugain.StudentLogin" />
+        <activity android:name="com.app.edugain.InstructorLogin" />
+        <activity android:name="com.app.edugain.AdminLogin" />
+        <activity android:name="com.app.edugain.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

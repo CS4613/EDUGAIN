@@ -10,6 +10,8 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.edugain.R;
+
 public class Register extends AppCompatActivity {
     public EditText Username;
     public EditText Password;

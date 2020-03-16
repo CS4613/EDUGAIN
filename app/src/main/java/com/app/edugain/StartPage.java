@@ -6,6 +6,8 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.edugain.R;
+
 public class StartPage extends AppCompatActivity {
 
     private static int splashTime = 5000;

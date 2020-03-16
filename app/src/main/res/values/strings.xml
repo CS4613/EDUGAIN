@@ -9,4 +9,5 @@
     <string name="admin">Admin</string>
     <string name="instructor">Instructor</string>
     <string name="student">Student</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
 </resources>
