@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010130690367",
+    "firebase_url": "https://edugain-8e7af.firebaseio.com",
+    "project_id": "edugain-8e7af",
+    "storage_bucket": "edugain-8e7af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010130690367:android:186dd1e455022b1df3f38a",
+        "android_client_info": {
+          "package_name": "com.app.edugain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010130690367-8154taphhdtmv69ql4ff3ko8b7584onm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.edugain",
+            "certificate_hash": "5c62fd50afbedb0870fdcdf945e06e43ea733b1a"
+          }
+        },
+        {
+          "client_id": "1010130690367-6lrsmocsgbocpvjkhnb9di1o54klj2oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHVP3DBdpZoHotvuzAq_nVB5icFhxINv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010130690367-6lrsmocsgbocpvjkhnb9di1o54klj2oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

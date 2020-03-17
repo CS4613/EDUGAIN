@@ -1,5 +1,5 @@
 package com.app.edugain;
-
+//importing the packages for the EDUGAIN
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,8 +25,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity {    //main class
+    // defining variables for various edittexts and textview buttons.
     private EditText Name;
     private EditText Password;
     private TextView Attempts;
@@ -35,14 +35,14 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup role_group;
     private int counter = 5;
 
-    private FirebaseAuth auth;
-
+    private FirebaseAuth auth;   //using a temporary variable for firebase authentication
+    //reference for bundle object passed into OnCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);   //activity modifications
 
-       auth = FirebaseAuth.getInstance();
+       auth = FirebaseAuth.getInstance();   //returns an instance of the class
 
         Name = findViewById(R.id.etname);
         Password = findViewById(R.id.etpass);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         //ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Usertype, R.layout.support_simple_spinner_dropdown_item);
         //spinner.setAdapter(adapter);
 
-
+        // OnclickListener predefined class for a button declared
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,16 +67,16 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
-                            final String currentUserId = auth.getCurrentUser().getUid();
+                            final String currentUserId = auth.getCurrentUser().getUid();   //getby method for gathering the username with UID
                             roleCheck(selected_role, currentUserId);
                         }
                         else
                         {
-                            Toast.makeText(MainActivity.this, "Invalid Id or Password", Toast.LENGTH_LONG).show();
-                            counter--;
+                            Toast.makeText(MainActivity.this, "Invalid Id or Password", Toast.LENGTH_LONG).show(); // To display on main content for a shorter period of time
+                            counter--;  // limiting the no of wrong entries for the user.
                             Attempts.setText("No of Attempts Remaining  "+counter);
                             if(counter == 0){
-                                Login.setEnabled(false);
+                                Login.setEnabled(false);    // disabling the LOGIN button.
                             }
                         }
                     }
@@ -87,9 +87,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void roleCheck(final int role, final String currentUserId)
     {
-        DatabaseReference currentUser = FirebaseDatabase.getInstance().getReference().child("users").child(currentUserId);
+        DatabaseReference currentUser = FirebaseDatabase.getInstance().getReference().child("users").child(currentUserId);  // retreiving the data respective to the user
 
         switch (role) {
+            //Value Event reciever for events.
             case R.id.adminRadio:
                 currentUser.addValueEventListener(new ValueEventListener() {
                     @Override
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Not registered as Admin", Toast.LENGTH_SHORT).show();
                         }
                     }
-
+                    //Default error message when incorrect data is retrieved.
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                         Toast.makeText(MainActivity.this, databaseError.toString(), Toast.LENGTH_SHORT).show();
