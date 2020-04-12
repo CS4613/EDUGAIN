@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.edugain">
 
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,19 +10,30 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.app.edugain.StartPage">
+        <activity android:name=".teacher_login.TakeAttendance"></activity>
+        <activity android:name=".teacher_login.AssignGrades" />
+        <activity
+            android:name=".student_login.StudLogin"
+            android:label="@string/title_activity_stud_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".teacher_login.TeacherLogin"
+            android:label="@string/title_activity_teacher_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminTools" />
+        <activity android:name=".AdminInstructor" />
+        <activity android:name=".AdminStudent" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.app.edugain.Register" />
-        <activity android:name="com.app.edugain.StudentLogin" />
-        <activity android:name="com.app.edugain.InstructorLogin" />
-        <activity android:name="com.app.edugain.AdminLogin" />
-        <activity android:name="com.app.edugain.MainActivity">
-
-        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".MainActivity" />
     </application>
+
 
 </manifest>
