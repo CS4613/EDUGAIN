@@ -6,7 +6,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.app.edugain"
+        applicationId "edu.edugain"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
@@ -48,5 +48,3 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:19.2.0'
 
 }
-
-

@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.edugain">
-
-
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.edugain">
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".teacher_login.TakeAttendance"></activity>
-        <activity android:name=".teacher_login.AssignGrades" />
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
         <activity
-            android:name=".student_login.StudLogin"
+            android:name=".admin_tool_panel.AdminToolPanel"
+            android:label="@string/title_activity_admin_tool_panel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="edu.edugain.ForgotPassword" />
+        <activity
+            android:name=".admin_instructor_panel.AdminInstructorPanel"
+            android:label="@string/title_activity_admin_instructor_panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".admin_student_panel.AdminStudentPanel"
+            android:label="@string/title_activity_admin_student_panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".student_login.StudentLogin"
             android:label="@string/title_activity_stud_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".teacher_login.TeacherLogin"
+            android:name=".instructor_login.InstructorLogin"
             android:label="@string/title_activity_teacher_login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AdminTools" />
-        <activity android:name=".AdminInstructor" />
-        <activity android:name=".AdminStudent" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="edu.edugain.AdminTools" />
+        <activity android:name="edu.edugain.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Register" />
-        <activity android:name=".AdminLogin" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="edu.edugain.AdminLogin" />
+        <activity android:name="edu.edugain.MainActivity" />
     </application>
-
 
 </manifest>
