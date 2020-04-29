@@ -1,0 +1,360 @@
+{
+  "course_attendance" : {
+    "CS4390" : {
+      "2020-04-26" : {
+        "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : "Present",
+        "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "Present",
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Present",
+        "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "Present"
+      },
+      "2020-04-27" : {
+        "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : "Absent",
+        "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "Present",
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Excused",
+        "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "Present"
+      }
+    },
+    "CS5410" : {
+      "2020-04-26" : {
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Excused",
+        "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : "Present",
+        "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "Present"
+      },
+      "2020-04-27" : {
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Present",
+        "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : "Absent",
+        "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "Present"
+      }
+    },
+    "CS6210" : {
+      "2020-04-26" : {
+        "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : "Present",
+        "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "Present",
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Present",
+        "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "Present"
+      }
+    },
+    "CS6310" : {
+      "2020-04-26" : {
+        "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "Present",
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Present"
+      }
+    },
+    "Math 6565" : {
+      "2020-04-27" : {
+        "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "Present"
+      }
+    },
+    "Math2348" : {
+      "2020-04-27" : {
+        "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "Present",
+        "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : "Absent"
+      }
+    }
+  },
+  "course_grades" : {
+    "CS4390" : {
+      "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : "A",
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "A",
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "A",
+      "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "A"
+    },
+    "CS5410" : {
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "A",
+      "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : "B",
+      "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : "A"
+    },
+    "CS6210" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "B"
+    },
+    "CS6310" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "B",
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "B"
+    },
+    "CS6810" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : "A"
+    },
+    "Math 6565" : {
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : "A"
+    }
+  },
+  "courses" : {
+    "CS4390" : {
+      "course_id" : "CS4390",
+      "department" : "CS",
+      "name" : "Mobile Application Development"
+    },
+    "CS5410" : {
+      "course_id" : "CS5410",
+      "department" : "CS",
+      "name" : "Automata Theory"
+    },
+    "CS6210" : {
+      "course_id" : "CS6210",
+      "department" : "CS",
+      "name" : "Parallel Processing"
+    },
+    "CS6310" : {
+      "course_id" : "CS6310",
+      "department" : "CS",
+      "name" : "Image Processing"
+    },
+    "CS6810" : {
+      "course_id" : "CS6810",
+      "department" : "CS",
+      "name" : "Analysis"
+    },
+    "Math 6565" : {
+      "course_id" : "Math 6565",
+      "department" : "Mathematics",
+      "name" : "Probability"
+    },
+    "Math2348" : {
+      "course_id" : "Math2348",
+      "department" : "Math",
+      "name" : "Algebra"
+    },
+    "Math4320" : {
+      "course_id" : "Math4320",
+      "department" : "Mathematics",
+      "name" : "Linear Algebra"
+    }
+  },
+  "courses_students" : {
+    "CS4390" : {
+      "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : true,
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : true,
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : true,
+      "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : true
+    },
+    "CS5410" : {
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : true,
+      "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : true,
+      "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : true
+    },
+    "CS6210" : {
+      "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : true,
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : true,
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : true,
+      "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : true
+    },
+    "CS6310" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : true,
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : true
+    },
+    "CS6810" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : true
+    },
+    "Math 6565" : {
+      "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : true
+    },
+    "Math2348" : {
+      "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : true,
+      "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : true
+    }
+  },
+  "departments" : {
+    "CS" : {
+      "dept_id" : "CS",
+      "name" : "Computer Science"
+    },
+    "HS" : {
+      "dept_id" : "HS",
+      "name" : "Humanities and Sciences"
+    },
+    "Math" : {
+      "dept_id" : "Math",
+      "name" : "Mathematics"
+    }
+  },
+  "instructor_courses" : {
+    "jEwQ6HPYb3dG4Dda3uyuz3HIRaU2" : {
+      "CS4390" : true,
+      "CS5410" : true,
+      "CS6210" : true,
+      "CS6310" : true
+    },
+    "rAzMEiSCIZT5e5gvnrBUbMrqoMG2" : {
+      "CS6810" : true,
+      "Math 6565" : true,
+      "Math2348" : true
+    },
+    "tQyA9WQzAxYWGOqrecP2bptnyNT2" : {
+      "CS4390" : true,
+      "CS5410" : true
+    }
+  },
+  "student_attendance" : {
+    "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : {
+      "2020-04-26" : {
+        "CS4390" : "Present",
+        "CS6210" : "Present"
+      },
+      "2020-04-27" : {
+        "CS4390" : "Absent"
+      }
+    },
+    "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : {
+      "2020-04-26" : {
+        "CS4390" : "Present",
+        "CS6210" : "Present",
+        "CS6310" : "Present"
+      },
+      "2020-04-27" : {
+        "CS4390" : "Present",
+        "Math2348" : "Present"
+      }
+    },
+    "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : {
+      "2020-04-26" : {
+        "CS4390" : "Present",
+        "CS5410" : "Excused",
+        "CS6210" : "Present",
+        "CS6310" : "Present"
+      },
+      "2020-04-27" : {
+        "CS4390" : "Excused",
+        "CS5410" : "Present",
+        "Math 6565" : "Present"
+      }
+    },
+    "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : {
+      "2020-04-26" : {
+        "CS5410" : "Present"
+      },
+      "2020-04-27" : {
+        "CS5410" : "Absent",
+        "Math2348" : "Absent"
+      }
+    },
+    "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : {
+      "2020-04-26" : {
+        "CS4390" : "Present",
+        "CS5410" : "Present",
+        "CS6210" : "Present"
+      },
+      "2020-04-27" : {
+        "CS4390" : "Present",
+        "CS5410" : "Present"
+      }
+    }
+  },
+  "student_courses" : {
+    "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : {
+      "CS4390" : true,
+      "CS6210" : true
+    },
+    "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : {
+      "CS4390" : true,
+      "CS6210" : true,
+      "CS6310" : true,
+      "CS6810" : true
+    },
+    "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : {
+      "CS4390" : true,
+      "CS5410" : true,
+      "CS6210" : true,
+      "CS6310" : true,
+      "Math 6565" : true
+    },
+    "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : {
+      "CS5410" : true,
+      "Math2348" : true
+    },
+    "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : {
+      "CS4390" : true,
+      "CS5410" : true,
+      "CS6210" : true
+    }
+  },
+  "student_grades" : {
+    "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : {
+      "CS4390" : "A"
+    },
+    "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : {
+      "CS4390" : "A",
+      "CS6210" : "B",
+      "CS6310" : "B",
+      "CS6810" : "A"
+    },
+    "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : {
+      "CS4390" : "A",
+      "CS5410" : "A",
+      "CS6310" : "B",
+      "Math 6565" : "A"
+    },
+    "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : {
+      "CS5410" : "B"
+    },
+    "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : {
+      "CS4390" : "A",
+      "CS5410" : "A"
+    }
+  },
+  "users" : {
+    "GofKXr6jGQcFVHyRO3ojh2FxRuA3" : {
+      "address" : "2009 cedar heights, jonesboro ar",
+      "email" : "teja.nethi@edugain.edu",
+      "id" : "GofKXr6jGQcFVHyRO3ojh2FxRuA3",
+      "name" : "Teja Nethi",
+      "phone" : 8708708700,
+      "role" : "student"
+    },
+    "JyQVCjqt8ShYHH5Kv1MCu3iKct13" : {
+      "address" : "2009 cedar heights, jonesboro ar",
+      "email" : "divakar.kamma@edugain.edu",
+      "id" : "JyQVCjqt8ShYHH5Kv1MCu3iKct13",
+      "name" : "Divakar Kamma",
+      "phone" : "8705307620",
+      "role" : "student"
+    },
+    "YY1sVGnHqScyy5Pbh7NLceMFcZC2" : {
+      "address" : "Jonesboro",
+      "email" : "ranga@edugain.edu",
+      "id" : "YY1sVGnHqScyy5Pbh7NLceMFcZC2",
+      "name" : "Ranga",
+      "phone" : "8705300099",
+      "role" : "student"
+    },
+    "akGQvp8IrVOEUaAuqmGSs1yK5Gj1" : {
+      "address" : "234 university ave, jonesboro ar",
+      "email" : "admin1@edugain.edu",
+      "id" : "akGQvp8IrVOEUaAuqmGSs1yK5Gj1",
+      "name" : "Admin1",
+      "phone" : 8708708700,
+      "role" : "admin"
+    },
+    "ezgC0rvJaVe1mU0nudz4OUJxZoH2" : {
+      "address" : "Jonesboro",
+      "email" : "student@edugain.edu",
+      "id" : "ezgC0rvJaVe1mU0nudz4OUJxZoH2",
+      "name" : "student",
+      "phone" : "8705305546",
+      "role" : "student"
+    },
+    "jEwQ6HPYb3dG4Dda3uyuz3HIRaU2" : {
+      "address" : "JONESBORO ",
+      "email" : "sashank.sudanagunta@edugain.edu",
+      "id" : "jEwQ6HPYb3dG4Dda3uyuz3HIRaU2",
+      "name" : "Sashank Sudanagunta",
+      "phone" : "8705305024",
+      "role" : "instructor"
+    },
+    "rAzMEiSCIZT5e5gvnrBUbMrqoMG2" : {
+      "address" : "Jonesboro",
+      "email" : "instructor@edugain.edu",
+      "id" : "rAzMEiSCIZT5e5gvnrBUbMrqoMG2",
+      "name" : "Instructor",
+      "phone" : "8705309696",
+      "role" : "instructor"
+    },
+    "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2" : {
+      "address" : "Jonesboro",
+      "email" : "akhil@edugain.edu",
+      "id" : "vnxL3fBKoQakR0Q8UHg0xeDf9Ss2",
+      "name" : "Akhil",
+      "phone" : "8705300077",
+      "role" : "student"
+    }
+  }
+}
