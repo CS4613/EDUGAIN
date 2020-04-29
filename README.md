@@ -7,17 +7,16 @@ Admin: Handles all academic details like updating courses, student information, 
 
 
 # Implementations 
-    Implemented the physical and logic structures as well as the login page with necessary connections like firebase ,data validation.
+    Implemented all packages that needed for the app development and completed 
     
 # Android Features Implemented
     Android Studio , firebase database ,firebase Authentication, Java, Json.
     
 # Present Status
-    User interface creation is completed for the welcome page, user interface should be completed once all the tables are completed.Presently working on the admin database tables construction in an Json file.Once the admin tables are created internal working of app will be done.
+   Project is completed and uploaded to play store which is under review process.
     
 # Issues 
-    As far as now only minor issues arises, upon scrutiny those are rectified.
-    Minor issues like storing the data in database ,authentiication for all users.
+   All issues are rectified that arised previously like database issues.
     
 # Timeline
   Estimated time to complete the Project on or before April first week with the fully functional App. 
