@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_teacher_home">
+
+    <fragment
+        android:id="@+id/nav_teacher_home"
+        android:label="Home"
+        android:name="edu.edugain.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_teacher_update"
+        android:name="edu.edugain.instructor_login.UpdateInstructorFragment"
+        android:label="Update Details"
+        tools:layout="@layout/fragment_update_instructor"/>
+
+    <fragment
+        android:id="@+id/nav_post_grades"
+        android:name="edu.edugain.instructor_login.PostGradesFragment"
+        android:label="Post Grades"
+        tools:layout="@layout/fragment_teacher_grades"/>
+
+    <fragment
+        android:id="@+id/nav_view_grades"
+        android:name="edu.edugain.instructor_login.ViewGradesFragment"
+        android:label="View Grades"
+        tools:layout="@layout/fragment_instructor_view_grades"/>
+
+    <fragment
+        android:id="@+id/nav_take_attendance"
+        android:name="edu.edugain.instructor_login.TakeAttendanceFragment"
+        android:label="Take Attendance"
+        tools:layout="@layout/fragment_teacher_attendance" />
+
+    <fragment
+        android:id="@+id/nav_view_attendance"
+        android:name="edu.edugain.instructor_login.ViewAttendanceFragment"
+        android:label="View Attendance"
+        tools:layout="@layout/fragment_instructor_view_attendance"/>
+
+</navigation>

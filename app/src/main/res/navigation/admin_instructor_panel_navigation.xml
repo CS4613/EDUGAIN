@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.edugain.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_instructor"
+        android:name="edu.edugain.admin_instructor_panel.AddInstructorFragment"
+        android:label="Add Instructor"
+        tools:layout="@layout/fragment_add_instructor" />
+
+    <fragment
+        android:id="@+id/nav_admin_view_teaching_courses"
+        android:name="edu.edugain.admin_instructor_panel.ViewCoursesFragment"
+        android:label="View Teaching Courses"
+        tools:layout="@layout/fragment_view_teaching_courses" />
+
+    <fragment
+        android:id="@+id/nav_admin_assign_courses"
+        android:name="edu.edugain.admin_instructor_panel.AssignCoursesFragment"
+        android:label="Assign Courses"
+        tools:layout="@layout/fragment_assign_courses" />
+</navigation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_teacher_home"
+            android:icon="@drawable/logo"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_teacher_update"
+            android:icon="@drawable/instructor80"
+            android:title="Update Details"/>
+
+        <item android:title="Grades">
+            <menu>
+                <item
+                    android:id="@+id/nav_post_grades"
+                    android:icon="@drawable/grades80"
+                    android:title="Post Grades" />
+                <item
+                    android:id="@+id/nav_view_grades"
+                    android:icon="@drawable/grades80"
+                    android:title="View Grades"/>
+
+            </menu>
+        </item>
+
+        <item android:title="Attendance">
+            <menu>
+                <item
+                    android:id="@+id/nav_take_attendance"
+                    android:icon="@drawable/attendance80"
+                    android:title="Take Attendance" />
+
+                <item
+                    android:id="@+id/nav_view_attendance"
+                    android:icon="@drawable/attendance80"
+                    android:title="View Attendance"/>
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

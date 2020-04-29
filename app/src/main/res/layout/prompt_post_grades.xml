@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:id="@+id/grades_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+        <RadioButton
+            android:id="@+id/grade_a_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/grade_b_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/grade_c_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/grade_d_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/grade_f_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+
+    </RadioGroup>
+
+</LinearLayout>

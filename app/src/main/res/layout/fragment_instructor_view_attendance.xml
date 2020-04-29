@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instructor_login.ViewAttendanceFragment"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance"
+            android:fontFamily="@font/aclonica"
+            android:textSize="24sp"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <Spinner
+        android:id="@+id/teacher_view_attendance_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/attendance_instructor_courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/attendance_instructor_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total : 20"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="4"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Name"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_columnWeight="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Present"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_columnWeight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Absent"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_columnWeight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Excused"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_columnWeight="1"/>
+        </GridLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/inst_view_att_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>

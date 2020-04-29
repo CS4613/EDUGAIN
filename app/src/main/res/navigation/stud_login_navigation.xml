@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.login.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_student_attendance"
+        android:name="com.example.login.student_login.StudentAttendanceFragment"
+        android:label="@string/student_attendance"
+        tools:layout="@layout/fragment_student_attendance" />
+
+    <fragment
+        android:id="@+id/nav_student_grades"
+        android:name="com.example.login.student_login.StudentGradesFragment"
+        android:label="@string/grades"
+        tools:layout="@layout/fragment_student_grades"/>
+
+    <fragment
+        android:id="@+id/nav_student_viewCourse"
+        android:name="com.example.login.student_login.ViewCourseFragment"
+        android:label="@string/student_view_courses"
+        tools:layout="@layout/fragment_student_view_course" />
+
+    <fragment
+        android:id="@+id/nav_student_register"
+        android:name="com.example.login.student_login.RegisterCourseFragment"
+        android:label="@string/student_register_courses"
+        tools:layout="@layout/fragment_register_course"/>
+
+    <fragment
+        android:id="@+id/nav_student_unregister"
+        android:name="com.example.login.student_login.UnRegisterFragment"
+        android:label="@string/student_unregister_courses"
+        tools:layout="@layout/fragment_un_register"/>
+
+</navigation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="1"
+    android:columnCount="4"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/inst_view_att_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Name"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_columnWeight="4"/>
+    <TextView
+        android:id="@+id/inst_view_att_present"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Present"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:id="@+id/inst_view_att_absent"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Absent"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:id="@+id/inst_view_att_excused"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Excused"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_columnWeight="1"/>
+
+</GridLayout>
