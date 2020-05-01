@@ -19,8 +19,7 @@ Admin: Handles all academic details like updating courses, student information, 
    All issues are rectified that arised previously like database issues.
     
 # Timeline
-  Estimated time to complete the Project on or before April first week with the fully functional App. 
-  
+ Project is completed and upoloaded 
 # Notes
     In order to execute the app, tester need to connect to firebase and should use the database in json file format. Once these are done perfectly tester can run and check it. Since the integration is done in perfect with firebase and Json the app is perfectly working in our system.
     
