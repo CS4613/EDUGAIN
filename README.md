@@ -13,7 +13,7 @@ Admin: Handles all academic details like updating courses, student information, 
     Android Studio , firebase database ,firebase Authentication, Java, Json.
     
 # Present Status
-   Project is completed and uploaded to play store which is under review process.
+   Project is completed and published in play store.
     
 # Issues 
    All issues are rectified that arised previously like database issues.
